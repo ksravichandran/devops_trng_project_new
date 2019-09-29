@@ -1,0 +1,154 @@
+    1  pwd
+    2  mkdir my_cloud_app
+    3  ls -lrt
+    4  cd my_cloud_app/
+    5  vi app.sh
+    6  ./app.sh
+    7  chmod 755 app.sh 
+    8  ./app.sh 
+    9  vi app.sh 
+   10  ./app.sh
+   11  vi app.sh 
+   12  pwd
+   13  ls -lrt
+   14  cd my_cloud_app/
+   15  ls -lrt
+   16  vi app.sh 
+   17  ./app.sh 
+   18  vi app.sh 
+   19  ./app.sh 
+   20  vi app.sh 
+   21  ./app.sh 
+   22  git
+   23  git config --global user.name "Ravichandran Sengottaiyan"
+   24  git config --global user.email "ks.ravichandran@gmail.com"
+   25  cd ../
+   26  git init
+   27  git status
+   28  vi .gitignore
+   29  vim .gitignore
+   30  git status
+   31  vim .gitignore 
+   32  git status
+   33  git add
+   34  git add .
+   35  git status
+   36  git commit
+   37  git status
+   38  git commit "Initial Commit on Git"
+   39  git commit .
+   40  exit
+   41  git status
+   42  git log
+   43  exit
+   44  ls -lrt
+   45  cd my_cloud_app
+   46  git status
+   47  git log
+   48  cd ../
+   49  git status
+   50  git commit
+   51  git status
+   52  git commit
+   53  git status
+   54  git log
+   55  git show 7723
+   56  git show 7723 --1
+   57  git show 7723 -oneline
+   58  git show 7723 --oneline
+   59  exit
+   60  git status
+   61  git log
+   62  git
+   63  pwd
+   64  dir
+   65  ls -lrt
+   66  cd my_cloud_app
+   67  ls -lrt
+   68  cd ..
+   69  view .gitignore
+   70  git status
+   71  git checkout ./my_cloud_app/app.sh
+   72  git status
+   73  cd my_cloud_app/
+   74  view app.sh 
+   75  cd ..
+   76  git add .
+   77  git status
+   78  git log
+   79  exit
+   80  cd my_cloud_app/
+   81  ls -lrt
+   82  vi app.sh
+   83  git status
+   84  vi app.sh 
+   85  git status
+   86  cd ../
+   87  git add .
+   88  git status
+   89  git commit
+   90  git status
+   91  git log
+   92  exit
+   93  git
+   94  git status
+   95  git show
+   96  git log
+   97  ls -lrt
+   98  cd my_cloud_app/
+   99  git show
+  100  git status
+  101  git log
+  102  cd ../
+  103  cd my_cloud_app/
+  104  git remote add origin https://github.com/ksravichandran/devops_training_project.git
+  105  git push origin master
+  106  ls -lrt
+  107  vi newfile.txt
+  108  git status
+  109  git add .
+  110  git status
+  111  git commit -m "added newfile with one line of code"
+  112  git status
+  113  git push origin master
+  114  git remote -v
+  115  cd
+  116  ls -lrt
+  117  git clone https://github.com/uber/Python-Sample-Application.git
+  118  ls -lrt
+  119  git status
+  120  git add .
+  121  git commit -m "Adding sample python application from Github"
+  122  git status
+  123  git push origin master
+  124  ls -lrt
+  125  cd Python-Sample-Application/
+  126  ls -lrt
+  127  exitt
+  128  exit
+  129  apt-get install -y openjdk-8-jdk
+  130  wget -q -O - https://pkg.jenkins.io/debian/jenkins-ci.org.key | sudo apt-key add -
+  131  sudo sh -c 'echo deb http://pkg.jenkins.io/debian-stable binary/ > /etc/apt/sources.list.d/jenkins.list'
+  132  sudo apt-get update
+  133  sudo apt-get install jenkins
+  134  service jenkins status
+  135  cat /var/lib/jenkins/secrets/initialAdminPassword
+  136  history
+  137  pwd
+  138  ls -lrt
+  139  cd Python-Sample-Application/
+  140  git init
+  141  git remot add origin https://github.com/ksravichandran/python_project.git
+  142  git remote add origin https://github.com/ksravichandran/python_project.git
+  143  git remote
+  144  git status
+  145  git log
+  146  git show --onelione
+  147  git show --oneline
+  148  git remote -v
+  149  history
+  150  cd ../
+  151  git init
+  152  git remote -v
+  153  cd my_cloud_app/
+  154  history > commands_history.txt
